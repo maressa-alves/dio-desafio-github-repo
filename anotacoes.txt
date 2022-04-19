@@ -9,3 +9,40 @@ git status (gst)
 git add . (ga .)
 git push (gp)
 git diff: inspeciona detalhes das alterações
+
+Colinha para trabalhar com git durante um projeto:
+
+1- Atualizar a master
+git pull origin master
+
+2- Criar uma branch nova
+git checkout -b minha_feature
+
+3- Trabalhar na feature
+
+4- Salvar as modificações
+git add .
+git commit -m "mensagem sobre o que foi feito"
+
+5- Voltar para a master para pegar atualizações
+git checkout master
+git pull origin master
+
+6- Voltar para a branch da feature
+git checkout minha_feature
+
+7- Atualizar a branch da feature com a master
+git merge master
+
+8 - Resolver os conflitos (se existirem)
+
+9- Enviar a feature para o repositório remoto
+git push origin minha_feature
+
+10- Criar o pull request no github
+
+11- Voltar para a master
+git checkout master
+
+12- Repetir do passo 1
+Obs: comandos feitos sem atalhos ou ferramentas extras
