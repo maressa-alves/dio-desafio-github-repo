@@ -1,0 +1,11 @@
+Curso de Git pela DIO
+
+Comandos básicos:
+git log: histórico de alterações
+gi init: cria arquivo git na pasta
+git commit -m "" (gc -m)
+git clone + ssh
+git status (gst)
+git add . (ga .)
+git push (gp)
+git diff: inspeciona detalhes das alterações
